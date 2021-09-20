@@ -27,7 +27,6 @@ header ul {
   justify-content: flex-end;
 }
 
-
 a {
   display: block;
   font-size: 1.5rem;
@@ -39,6 +38,18 @@ a {
 
 form a {
   color: #1a0dab;
+}
+
+form p,
+form a {
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-left: 5px;
+  padding: 0;
+}
+
+footer a {
+  color: #70757a;
 }
 
 a:hover {
@@ -167,14 +178,6 @@ form p {
   color: #202124;
 }
 
-form p,
-form a {
-  display: inline-block;
-  font-size: 1.3rem;
-  margin-left: 5px;
-  padding: 0;
-}
-
 footer {
   grid-area: footer;
   display: grid;
@@ -184,10 +187,6 @@ footer {
   grid-template-rows: auto auto;
   color: #70757a;
   background-color: #f2f2f2;
-}
-
-footer a {
-  color: #70757a;
 }
 
 #places {
