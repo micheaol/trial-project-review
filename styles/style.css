@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: Arial, sans-serif;
   font-size: 10px;
@@ -8,9 +14,7 @@ p {
   font-size: 1.5rem;
 }
 
-
 ul {
-  display: inline-block;
   position: relative;
   display: flex;
   align-items: center;
@@ -27,10 +31,25 @@ a {
   display: block;
   font-size: 1.5rem;
   text-decoration: none;
-  color: black;
   box-sizing: border-box;
   padding: 10px;
   color: rgba(0, 0, 0, 0.87);
+}
+
+form a {
+  color: #1a0dab;
+}
+
+form p,
+form a {
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-left: 5px;
+  padding: 0;
+}
+
+footer a {
+  color: #70757a;
 }
 
 a:hover {
@@ -159,18 +178,6 @@ form p {
   color: #202124;
 }
 
-form a {
-  color: #1a0dab;
-}
-
-form p,
-form a {
-  display: inline-block;
-  font-size: 1.3rem;
-  margin-left: 5px;
-  padding: 0;
-}
-
 footer {
   grid-area: footer;
   display: grid;
@@ -180,10 +187,6 @@ footer {
   grid-template-rows: auto auto;
   color: #70757a;
   background-color: #f2f2f2;
-}
-
-footer a {
-  color: #70757a;
 }
 
 #places {
@@ -207,6 +210,8 @@ ul p {
   flex-wrap: wrap;
   text-align: center;
 }
+
+/* Media query for smaller screens */
 
 @media (min-width: 1000px) {
   #footer-nav {
