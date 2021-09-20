@@ -208,6 +208,8 @@ ul p {
   text-align: center;
 }
 
+/* Media query for smaller screens */
+
 @media (min-width: 1000px) {
   #footer-nav {
     justify-content: space-between;
