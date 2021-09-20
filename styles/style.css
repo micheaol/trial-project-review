@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding:0;
@@ -14,7 +14,6 @@ p {
   font-size: 1.5rem;
 }
 
-
 ul {
   position: relative;
   display: flex;
@@ -28,11 +27,14 @@ header ul {
   justify-content: flex-end;
 }
 
+form a {
+  color: #1a0dab;
+}
+
 a {
   display: block;
   font-size: 1.5rem;
   text-decoration: none;
-  color: black;
   box-sizing: border-box;
   padding: 10px;
   color: rgba(0, 0, 0, 0.87);
@@ -162,10 +164,6 @@ form button:hover {
 
 form p {
   color: #202124;
-}
-
-form a {
-  color: #1a0dab;
 }
 
 form p,
