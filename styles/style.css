@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 html {
@@ -27,9 +27,6 @@ header ul {
   justify-content: flex-end;
 }
 
-form a {
-  color: #1a0dab;
-}
 
 a {
   display: block;
@@ -38,6 +35,10 @@ a {
   box-sizing: border-box;
   padding: 10px;
   color: rgba(0, 0, 0, 0.87);
+}
+
+form a {
+  color: #1a0dab;
 }
 
 a:hover {
