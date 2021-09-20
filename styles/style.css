@@ -16,7 +16,6 @@ p {
 
 
 ul {
-  display: inline-block;
   position: relative;
   display: flex;
   align-items: center;
